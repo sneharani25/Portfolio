@@ -1,0 +1,234 @@
+/* .navbar-dark navbar-nav nav-items{
+  text-align: center !important;
+} */
+.home{
+  color: white;
+  font-size: 25px;
+}
+
+ .home #name{
+   padding-left: 10px;
+   padding-top: 2px;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+#i-m{
+  color: white;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.home #FRONTEND{
+  text-align: left;
+  padding-top: 0px;
+  font-size: 30px;
+  font-weight: 40;
+  color: white;
+}
+@media only screen and (max-width:769px){
+  .mithu{
+    display: none;
+  }
+  .home #name{
+    padding-left: 10px;
+    padding-top: 2px;
+   color: red;
+   font-weight: bold;
+   font-size: 25px;
+ }  
+ .home{
+   font-size: 20px;
+ }
+ 
+}
+#about-me-col{
+  border: 5px solid black;
+}
+#about-me {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.about-me-heading{
+  text-align: center;
+  color: black;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px  black;
+}
+.about-me-content{
+  text-align: left;
+  /* margin-left: 110px; */
+  font-size: 18px;
+  padding-bottom: 0px;
+  margin-left: 50px;
+  /* padding-left: 50px; */
+}
+.About-me-education h4{
+  text-align: left;
+  padding-bottom: 20px;
+  color: black;
+  padding-top: 0px;
+}
+.About-me-education p{
+  text-align: left;
+  padding-bottom: 20px;
+  color: black;
+  padding-top: 0px;
+}
+.About-me-education h1{
+  text-shadow: 2px 2px  black;
+  text-align: center;
+  color: black;
+  padding-bottom: 10px;
+}
+.About-me-education div{
+  border: 1px solid black;
+  text-align: center;
+  padding-bottom: 0px;
+  margin: 10px;
+  margin-left: 50px;
+  box-shadow: 10px 10px 10px gray;
+}
+.About-me-education div img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#Work-Experience{
+  /* margin: 10px; */
+  border: 3px solid black;
+  margin-top: 100px;
+  background-color: teal;
+  /* background-color: black; */
+  padding-left: 10px;
+}
+#Work-Experience p,h4,li{
+  text-align: left;
+  color: white;
+  font-size:large;
+  padding-left: 10px;
+}
+#Work-Experience h1{
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+  text-shadow: 2px 2px  black;
+  color: black;
+}
+#h-4{
+  text-align: left;
+  color: white;
+}
+.Skills-heading{
+  text-align: center;
+  padding-top: 70px;
+  /* padding-bottom: 30px; */
+  text-shadow: 2px 2px  black;
+  color: black;
+}
+#Skills img{
+  padding: 20px;
+  padding-bottom: 0px;
+}
+#Skills{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#Skills h1,h3{
+  color: black;
+}
+.Contact {
+  text-align: center;
+}
+.Contact h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Contact span{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+#Contact-me a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+.Projects-heading{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-shadow: 2px 2px  black;
+  color: black;
+}
+.Projects{
+  /* background-color: #80deea; */
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+#Projects div:hover{
+  box-shadow: 10px 10px 10px gray;
+}
+.Projects h1{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+.Projects-1{
+  margin-left: 50px;
+  border: 3px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: black;
+  /* box-shadow: 10px 10px 10px gray; */
+}
+.Projects-2{
+  border: 3px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  margin: 10px;
+}
+.Projects-3{
+  /* background-color: rgb(13, 139, 139); */
+  border: 3px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  margin: 10px;
+  color: black;
+  margin-left: 50px;
+}
+.Projects h1{
+  text-align: left;
+}
+.Projects h2{
+  font-size:45px;
+}
+@media only screen and (max-width:412px){
+  .about-me-content{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 10px;
+    border: none;
+  }
+}
+/* @media only screen and (max-width:1000px){
+  #name{
+    font-size: 15px;
+  }
+} */
+@media only screen and (max-width:285px){
+  #about-me-col{
+    border: 5px solid white;
+  }
+}
+@media only screen and (max-width:768px){
+  #about-me-col{
+    text-align: left;
+    /* border: 5px solid white; */
+    left: 00px;
+  }
+}
